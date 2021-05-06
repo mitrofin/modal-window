@@ -14,6 +14,20 @@ const backdrop = document.querySelector('.backdropProduct');
 closeModal.addEventListener('click', closeModalProduct);
 openModalProduct.addEventListener('click', openModalFunc);
 
+let infoAboutSaller;
+let infoAboutSallerCover;
+
+/* показывает инфо о продавце */
+infoAboutSaller = document.querySelector('.dealler_infornation_down');
+infoAboutSallerCover = document.querySelector('.dealler_infornation');
+
+infoAboutSallerCover.addEventListener('click', showInfoAboutsaller);
+
+function showInfoAboutsaller() {
+  infoAboutSallerCover.style.opacity = '0';
+  infoAboutSaller.style.opacity = '1';
+}
+
 function openModalFunc(evt) {
   evt.preventDefault();
   backdrop.classList.remove('is-hidden');
