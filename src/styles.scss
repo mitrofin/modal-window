@@ -9,6 +9,7 @@
 /* @import './scss/reg-modal.scss'; */
 /* @import './scss/searchModal.scss'; */
 @import './scss/productModal.scss';
+@import './scss/logo.scss';
 html {
   box-sizing: border-box;
 }
@@ -22,12 +23,13 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Montserrat',
+    sans-serif;
 
   /*
    * CSS image reference example.
    */
-  /* background-image: url('./images/bg-pattern.png'); */
+  background-image: url('./images/bg-pattern.png');
 }
 
 /*Цветовая панель*/
@@ -919,7 +921,7 @@ body {
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
-hr {
+/* hr {
   height: 0;
 }
 
@@ -1191,3 +1193,4 @@ summary {
   color: #ffffff;
   background: #ff6b09;
 }
+ */
